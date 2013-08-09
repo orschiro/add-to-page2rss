@@ -9,6 +9,10 @@ I created this extension due to a missing feature in the official [page2rss](htt
 
 # Changelog
 
+**1.1**
+
+- Fixed persisting "done" in BadgeText and minor issues with RSS feed URL tab not showing up correctly
+
 **1.0**
 
 - Initial release
