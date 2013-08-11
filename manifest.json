@@ -1,13 +1,15 @@
 {
   "name" : "Create RSS feed page2rss",
-  "version" : "1.1",
+  "version" : "1.2",
   "description" : "Create a RSS feed for any website that does not have a RSS feed using page2rss.com'",
   "permissions": [
     "tabs", "http://*/*", "https://*/*"
   ],
   "background" : {
-    "scripts": ["background.js"]
+    "scripts": ["background.js"],
+    "persistent": false
   },
+  "web_accessible_resources": ["create_feed_url.js"],
   "browser_action" :
   {
     "default_icon" : "rss-19.png",
